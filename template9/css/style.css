@@ -1,0 +1,108 @@
+.main{
+	padding: 5px 15px 5px 15px;
+	user-select: none;
+}
+.firstContent{
+	width: 100%;
+	height: 70px;
+}
+.firstContent .firstLeft{
+	text-align: left;
+	float: left;
+}
+.firstRight ul{
+	text-transform: uppercase;
+	margin-left: 550px;	
+}
+.firstRight ul li{
+	float: left;
+	margin-left: 30px;
+}
+.firstRight ul li:first-of-type {
+	list-style: none;
+}
+.firstRight ul li:hover{
+	cursor: pointer;
+	color: orange;
+}
+.secondContent{
+	width: 100%;
+	height: 400px;
+	color: white;
+	position: relative;
+	background-image: url(../images/22.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;	
+}
+
+.secondContent h1{
+	position: absolute;
+	font-size: 3.1em;
+	margin-top: 135px;
+	margin-left: 530px;
+}
+.secondContent p{
+	position: absolute;
+	margin-top: 195px;
+	margin-left: 525px;
+}
+.secondContent span{
+	color: orange;
+}
+.secondContent .icon{
+	position: absolute;
+	background-color: white;
+	width: 25px;
+	height: 25px;
+	margin-top: 60px;
+	margin-left: -10px;
+}
+.secondContent .icon i{
+	color: black;
+	margin: 4px 0px 0px 4px;
+}
+.secondContent > i {
+	position: absolute;
+	left: 50%;
+	bottom: 0;
+	font-size: 2em;
+	transform: translateX(-50%);
+	color:orange;
+
+
+}
+.thirdContent{
+	width: 100%;
+	height: 400px;
+	background-color: #fafafa;	
+	margin-top: 20px;
+}
+.thirdContent .left{
+	float: left;
+	width: 40%;
+	height: 100%;
+	margin: 20px 30px;
+}
+.thirdContent .left h6{
+	color: gray;
+}
+.thirdContent .right {
+	width: 60%;
+	height: 100%;
+	
+}
+.thirdContent .right ul{
+	display: flex;
+	padding-top: 90px; 
+}
+.thirdContent .right li{
+	list-style: none;
+	text-transform: uppercase;
+	margin-right: 80px;
+}
+.thirdContent .right i{
+	color: gold;
+	display: block;
+	font-size: 4em;
+}
+
